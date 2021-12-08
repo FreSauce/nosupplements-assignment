@@ -2,7 +2,6 @@ import { Modal, Input, Form } from "antd";
 import { useEffect } from "react";
 
 const EditCard = ({ isModalVisible, handleOk, handleCancel, modalData }) => {
-    // console.log(modalData);
     const [form] = Form.useForm();
     
     useEffect(() => {
