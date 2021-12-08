@@ -23,7 +23,7 @@ const Cards = () => {
                         phone: data.phone,
                         website: "http://" + data.website,
                         company: data.company.name,
-                        address: data.address.street,
+                        address: data.address,
                         avatarUrl: `https://avatars.dicebear.com/v2/avataaars/${data.username}.svg?options[mood][]=happy`,
                         isLiked: false,
                     });
